@@ -28,10 +28,12 @@ main {
 }
 
 p {
-    margin: 25px;
+    margin: 20px;
     width: 830px;
+    font-family: comic;
 }
 
 ul {
-    list-style: none;
+    /* list-style: none; */
+    width: 850px;
 }
