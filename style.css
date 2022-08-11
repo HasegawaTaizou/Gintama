@@ -36,4 +36,9 @@ p {
 ul {
     /* list-style: none; */
     width: 850px;
+    /* display: none; */
+}
+
+.esconder {
+    display: none;
 }
