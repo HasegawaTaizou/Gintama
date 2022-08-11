@@ -31,14 +31,17 @@ p {
     margin: 20px;
     width: 830px;
     font-family: comic;
+    background-image: repeating-linear-gradient(white 20%, green 30% ,black 40%);
 }
 
 ul {
-    /* list-style: none; */
     width: 850px;
-    /* display: none; */
 }
 
 .esconder {
     display: none;
+}
+
+.azul {
+    background-color: blue;
 }

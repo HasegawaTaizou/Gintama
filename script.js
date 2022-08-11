@@ -1,7 +1,4 @@
-let todasLi = document.querySelectorAll('li');
+let ul = document.querySelector('.personagens')
+ul.classList.add('azul')
 
-function esconderLista() {
-    todasLi.forEach(item => {
-        item.classList.togle('esconder');
-    })
-}
+
