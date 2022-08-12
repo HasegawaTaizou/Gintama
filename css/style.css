@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+header div {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    margin: 10px;
+    width: 80px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  margin: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  margin: 25px;
+  color: whitesmoke;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.imagens {
+    /* background-image: url(./img/gintama.jpg); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #262626;
+}
+
+.imagens h1 {
+    color: whitesmoke;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #404040;
+  color: #f2f2f2;
+}
+
+h1 {
+  margin: 35px;
+  font-family: Courier;
+  font-size: 45px;
+}
+
+img {
+  width: 800px;
+  border: 10px groove black;
+  border-radius: 40px;
+}
+
+main {
+  width: 850px;
+}
+
+p {
+  margin: 20px;
+  width: 830px;
+  font-family: comic;
+  /* background-image: repeating-linear-gradient(white 20%, green 30%, black 40%); */
+}
+
+ul {
+  width: 850px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #1a1a1a;
+}
+
+footer p {
+    text-align: center;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: #b366ff;
+}
