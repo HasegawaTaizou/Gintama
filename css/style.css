@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   align-items: center;
@@ -137,15 +141,22 @@ p {
 .personagens li {
   margin: 20px;
   margin-bottom: 40px;
+  padding: 8px;
+  /* display: inline-block; */
 }
 
-.personagens li:hover:nth-child(2n + 1) {
+.personagens > li:hover {
   color: #b366ff;
+  border-left: 8px solid #b366ff;
 }
 
 ul {
   width: 850px;
   list-style: none;
+}
+
+span {
+  color: red;
 }
 
 footer {
