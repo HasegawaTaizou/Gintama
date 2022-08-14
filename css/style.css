@@ -10,7 +10,8 @@ body {
   flex-direction: column;
   background-color: #404040;
   color: #f2f2f2;
-  font-size: 20px;
+  font-size: 24px;
+  font-family: "Nesans", Courier, monospace;
 }
 
 header {
@@ -43,6 +44,8 @@ header div {
   background-color: black;
   padding: 10px;
   border-radius: 10px;
+  font-family: "Airthan", Courier, monospace;
+  font-size: 40px;
 }
 
 a:hover {
@@ -56,7 +59,6 @@ img {
 }
 
 .imagens {
-  /* background-image: url(./img/gintama.jpg); */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -74,8 +76,9 @@ img {
 
 h1 {
   margin: 35px;
-  font-family: Courier;
-  font-size: 45px;
+  font-family: "ka1", Courier, monospace;
+  font-size: 70px;
+  letter-spacing: 7px;
 }
 
 h1:hover {
@@ -94,10 +97,37 @@ main {
   width: 850px;
 }
 
+#personagens-principais {
+  font-size: 38px;
+}
+
+#personagens-principais:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #e71388 10%,
+    #ec417d 30%,
+    #bb3b9e 50%
+  );
+}
+
+#sobre:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    to right,
+    #e71388 20%,
+    #ec417d 30%,
+    #bb3b9e 40%
+  );
+}
+
 p {
   margin: 20px;
   width: 830px;
-  font-family: comic;
 }
 
 .personagens ul {
@@ -109,7 +139,7 @@ p {
   margin-bottom: 40px;
 }
 
-.personagens li:hover {
+.personagens li:hover:nth-child(2n + 1) {
   color: #b366ff;
 }
 
@@ -142,17 +172,17 @@ footer p:hover {
   );
 }
 
-/* @font-face {
+@font-face {
   font-family: "Airthan";
-  src: url("fonts/Airthan-Age.ttf") format("truetype");
-} */
+  src: url("../fonts/Airthan-Age.ttf") format("truetype");
+}
 
-/* @font-face {
+@font-face {
   font-family: "ka1";
-  src: url("fonts/ka1.ttf") format("truetype");
+  src: url("../fonts/ka1.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Nesans";
-  src: url("fonts/Nesans Semi Bold.ttf") format("truetype");
-} */
+  src: url("../fonts/Nesans Semi Bold.ttf") format("truetype");
+}
