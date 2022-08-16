@@ -148,6 +148,7 @@ p {
 .personagens > li:hover {
   color: #b366ff;
   border-left: 8px solid #b366ff;
+  cursor: pointer;
 }
 
 ul {
