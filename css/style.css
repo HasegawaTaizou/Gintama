@@ -1,5 +1,4 @@
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -197,4 +196,45 @@ footer p:hover {
 @font-face {
   font-family: "Nesans";
   src: url("../fonts/Nesans Semi Bold.ttf") format("truetype");
+}
+
+/* de 880px */
+/* A partir de 990px de largura */
+@media (min-width: 880px) and (max-width: 990px)  {
+  div a img {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+@media (min-width: 450px) and (max-width: 880px) {
+
+  div a img {
+    display: none;
+  }
+
+  #sobre {
+    padding-left: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .imagens {
+    display: none;
+  }
+
+  main {
+    background-color: #262626;
+  }
+
+  footer {
+    display: none;
+  }
 }
